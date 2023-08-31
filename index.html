@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Product</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230831133150">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__navbar">
+					<div class="footer__logo logo">LOGO HERE!</div>
+					<div class="header__nav-menu">
+						<input type="checkbox" id="burger-checkbox">
+						<label for="burger-checkbox" class="header__burger-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+						<nav class="header__menu">
+							<ul class="header__menu-list menu-list">
+								<li class="menu-list__item"><a class="menu-list__link" href="#hero">Main</a></li>
+								<li class="menu-list__item"><a class="menu-list__link" href="#video">About Us</a></li>
+								<li class="menu-list__item"><a class="menu-list__link" href="#information">Features</a></li>
+								<li class="menu-list__item"><a class="menu-list__link" href="#overview">Screenshots</a></li>
+								<li class="menu-list__item"><a class="menu-list__link" href="#download">Process</a></li>
+								<li class="menu-list__item"><a class="menu-list__link" href="#review">Contacts</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="hero" id="hero">
+				<div class="hero__banner">
+					<picture><source srcset="img/home/banner.webp" type="image/webp"><img src="img/home/banner.jpg" alt="banner" class="hero__object-fit"></picture>
+					<div class="hero__container">
+						<div class="hero__wrap">
+							<h1 class="hero__title title">The Name Of The Product</h1>
+							<div class="hero__text">Practice solving your puzzle as fast as possible with random shuffling
+								and a timer with full statistics
+							</div>
+							<a href="#" class="hero__btn btn-google"><picture><source srcset="img/home/btn__play.webp" type="image/webp"><img src="img/home/btn__play.png" alt="Google Play"></picture></a>
+						</div>
+
+					</div>
+					<div class="hero__swiper-source">
+						<div class="swiper">
+							<!-- Additional required wrapper -->
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+								<div class="swiper-slide"></div>
+							</div>
+							<!-- If we need pagination -->
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="video" id="video">
+				<div class="video__container">
+					<h2 class="video__title title">What is new in our product</h2>
+					<div class="video__source">
+						<picture><source srcset="img/home/video__banner.webp" type="image/webp"><img src="img/home/video__banner.jpg" alt="Video Poster" id="posterImage"></picture>
+						<video controls poster="img/home/video__banner.jpg" id="videoPlayer">
+							<source src="img/home/video/video.mp4" type="video/mp4">
+							Ваш браузер не поддерживает видео.
+						</video>
+					</div>
+				</div>
+			</section>
+
+			<section class="information" id="information">
+				<div class="information__container">
+					<h2 class="information__title title">Additional app information</h2>
+					<div class="information__grid">
+						<div class="information__grid-item">
+							<picture><source srcset="img/home/figure.webp" type="image/webp"><img class="information__figure" src="img/home/figure.png" alt="figure"></picture>
+							<div class="box"></div>
+						</div>
+						<div class="information__grid-item">
+
+							<ul class="information__list">
+								<li class="information__list-item">
+									<div class="information__number">1</div>
+									<div class="information__info">
+										<h3 class="information__title">Licensed & Regulated</h3>
+										<p class="information__text">At vero eos et accusamus et iusto odio</p>
+									</div>
+								</li>
+								<li class="information__list-item">
+									<div class="information__number">2</div>
+									<div class="information__info">
+										<h3 class="information__title">Multi-Asset CFD Provider</h3>
+										<p class="information__text">Stocks | FX | Commodities | Indices | Crypto</p>
+									</div>
+								</li>
+								<li class="information__list-item">
+									<div class="information__number">3</div>
+									<div class="information__info">
+										<h3 class="information__title">Ultra-Low-Cost Trading</h3>
+										<p class="information__text">Spreads from 0.0 pips</p>
+									</div>
+								</li>
+								<li class="information__list-item">
+									<div class="information__number">4</div>
+									<div class="information__info">
+										<h3 class="information__title">Auto-Trading Platform</h3>
+										<p class="information__text">Proven | Safe | Simple</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="overview" id="overview">
+				<div class="overview__container">
+					<div class="overview__grid">
+						<div class="overview__grid-item">
+							<h2 class="overview__title title">Overview</h2>
+							<div class="overview__info">
+								<label class="overview__label">Just describe your puzzle to get the 3D solution:</label>
+								<ul class="overview__list">
+									<li class="overview__list-item">
+										<p class="overview__text">- Pocket Cube and Mirror Cube 2x2 : this app can solve the
+											cube in 14 moves or less !</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Rubik's Cube : solves the classic 3x3 cube with an
+											average of 27 moves.</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Skewb : solved in 11 moves maximum.</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Skewb Diamond : solved in 10 moves maximum.</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Pyraminx : solved in 11 moves disregarding the trivial
+											rotation of the tips.</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Pyraminx : solved in 11 moves disregarding the trivial
+											rotation of the tips.</p>
+									</li>
+									<li class="overview__list-item">
+										<p class="overview__text">- Ivy Cube : solved in 8 moves maximum.</p>
+									</li>
+								</ul>
+								<p class="overview__text">Practice solving your puzzle as fast as possible with random
+									shuffling and a timer with full statistics (SpeedCubing).<br>
+									Learn to solve the classic 3x3 step by step with the Fridrich method.<br>
+									Create patterns on your 3x3 cube.</p>
+								<p class="overview__text">This application needs internet access to get the solution.</p>
+							</div>
+
+							<a href="#" class="overview__btn btn">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="download" id="download">
+				<div class="download__container">
+					<div class="download__grid">
+						<div class="download__grid-item">
+							<h2 class="download__title title">Download our app</h2>
+							<div class="download__text">Practice solving your puzzle as fast as possible with random
+								shuffling and a timer with full statistics
+							</div>
+						</div>
+						<div class="download__grid-item">
+							<a href="#" class="download__btn btn-google"><picture><source srcset="img/home/btn__play.webp" type="image/webp"><img src="img/home/btn__play.png" alt="Google Play"></picture></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="review" id="review">
+				<div class="review__container">
+					<div class="review__grid">
+						<div class="review__grid-item">
+							<h2 class="review__title title">Text review</h2>
+							<form id="myForm" class="review__form">
+								<label for="nameInput" class="review__form-label">Name</label>
+								<input type="text" class="review__form-input" id="nameInput" placeholder="Name" required>
+
+								<label class="review__form-label" for="emailInput">Email</label>
+								<input type="email" class="review__form-input" id="emailInput" placeholder="Email" required>
+
+								<label class="review__form-label" for="messageTextarea">Message</label>
+								<textarea class="review__form-textarea" id="messageTextarea" placeholder="Message" rows="7" required></textarea>
+
+								<button data-popup="#popup" class="review__form-btn btn" id="form-submit" type="submit">
+									Send
+								</button>
+							</form>
+						</div>
+						<div class="review__grid-item">
+							<h3 class="review__title title">Looking for an excellent business idea?</h3>
+							<p class="review__text">Give us a call or email anytime, we strive to answer all inquiries
+								within 24 hours on business days.</p>
+							<div class="review__box-figure">
+								<picture><source srcset="img/home/figure.webp" type="image/webp"><img class="review__figure" src="img/home/figure.png" alt="figure"></picture>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__social">
+					<a href="#" class="footer__social-link fa"></a>
+					<a href="#" class="footer__social-link in"></a>
+					<a href="#" class="footer__social-link tw"></a>
+				</div>
+				<div class="footer__wrap">
+					<div class="footer__rights">
+						<p class="footer__text">©<span id="currentYear"></span> Name | ALL RIGHTS RESERVED</p>
+					</div>
+					<div class="footer__policy">
+						<a href="#" class="footer__policy-link">Private Policy</a>
+						<a href="#" class="footer__policy-link">Term of Use</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="popup" id="popup">
+			<div class="popup-body">
+				<div class="popup-content">
+					<button type="button" class="btn-close"></button>
+					<h2 class="title">Успішне прийняття заявки</h2>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/app.min.js?_v=20230831133150"></script>
+</body>
+
+</html>
